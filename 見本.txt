@@ -1,0 +1,66 @@
+
+ /* --- 全域與基礎樣式 (Global & Base Styles) --- */
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+a, a:visited {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: var(--color-accent);
+}
+
+/* --- 核心設計變數 (CSS Variables) --- */
+:root {
+  /* 色彩系統 */
+  --color-primary: #111111;
+  --color-accent: #555555;
+  --color-text: #111111;
+  --color-background: #ffffff;
+  --color-border: #dddddd;
+
+  /* 字體系統 */
+  --font-family-base: 'Lora', serif;
+  --font-family-heading: 'Lato', sans-serif;
+
+  /* 間距與佈局 */
+  --spacing-unit: 8px;
+  --container-padding: calc(var(--spacing-unit) * 3); /* 24px */
+  
+  /* 視覺效果 */
+  --border-radius-base: 0;
+  --box-shadow-base: none;
+}
+
+/* --- 關鍵組件範例 (Key Component Examples) --- */
+.btn-primary { 
+  display: inline-block;
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--color-background);
+  background-color: var(--color-primary);
+  padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3); /* 12px 24px */
+  border: 1px solid var(--color-primary);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-accent);
+  color: var(--color-background);
+  border-color: var(--color-accent);
+}
+
+.card-style { 
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  padding: var(--container-padding);
+}

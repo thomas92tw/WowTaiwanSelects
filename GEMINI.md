@@ -1,16 +1,15 @@
 ## Gemini Added Memories
 
-
 ## Project Context for Wow! Taiwan Selects Web Page
 This project involves creating an interactive web page to display the "Wow! Taiwan Selects 東南亞巡迴推廣活動深度分析" content.
 
 **Key Features and Design Principles:**
 - **Content Source**: The primary content is derived from `原文/WowTaiwanSelects.txt`.
 - **Design Aesthetic**:
-    - Background: Black (`#1a1a1a`)
-    - Titles: Bright Yellow (`#ffff00`)
-    - Content Text: White
-    - Fonts: Traditional Chinese - Noto Sans TC (思源黑體)
+    - Background: White (`#fff`)
+    - Titles: Accent color (`#b59f5b`)
+    - Content Text: Dark Gray (`#222`)
+    - Fonts: `Helvetica Neue`, Arial, `PingFang TC`, `Microsoft JhengHei`, sans-serif
 - **Layout & Interactivity**:
     - **Responsive Web Design (RWD)**: Adapts to various screen sizes.
     - **Single-Column Layout**: A modern, single-column, magazine-style layout for immersive reading.
@@ -25,8 +24,8 @@ This project involves creating an interactive web page to display the "Wow! Taiw
 **Development History & Specific Instructions:**
 - The project underwent several iterations. The initial multi-column and bento-grid approaches were discarded in favor of a cleaner, single-column narrative flow.
 - Key user instructions that shaped the final design included:
-    1.  Removing all bold styles from the body text.
-    2.  Changing the accent color to a vibrant `#ffff00`.
+    1.  Adhering to the design principles of the `見本.txt` file.
+    2.  Using the full text from `原文/WowTaiwanSelects.txt`.
     3.  Ensuring all images are used and arranged in perfectly整齊 (neat) grids with no missing corners.
     4.  Adding subtle hover and scroll animations for a more dynamic experience.
-    5.  Ensuring reference materials were left-aligned for a professional finish.
+    5.  Renaming image files to be more descriptive.
