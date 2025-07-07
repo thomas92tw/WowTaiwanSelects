@@ -38,3 +38,15 @@ This project involves creating an interactive web page to display the "Wow! Taiw
     9.  Renaming image files to be more descriptive (completed, now using ASCII filenames).
     10. Ensuring RWD for all devices.
     11. Reference list formatted as 1.2.3.4 without repetition (completed).
+---
+### Recent Changes:
+
+- Deleted the following directories:
+    - `/Users/thomastseng/Desktop/智慧社區線上媒合分析/Match_Analysis_Web_Report_Smart_Community/`
+    - `/Users/thomastseng/Desktop/智慧社區線上媒合分析/Match_Analysis_Web_Report_Smart_Community_Single_Column`
+- Optimized the yellow color in `/Users/thomastseng/Desktop/智慧社區線上媒合分析/Match_Analysis_Web_Report_Smart_Community_Card_Layout/style.css` from `#FFD700` to `#ffff00`.
+- Optimized `/Users/thomastseng/Desktop/運動健康線上媒合分析/Match_Analysis_Web_Report/` to match the design style of `/Users/thomastseng/Desktop/智慧社區線上媒合分析/Match_Analysis_Web_Report_Smart_Community_Card_Layout/`. This included:
+    - Updating `style.css` to the card layout style.
+    - Updating `index.html` to use `card-grid-container` and change the title to "運動健康線上媒合分析 - 卡片式".
+    - Updating `script.js` to filter and display data based on the new score range (1-5) and use the card layout logic.
+    - Updating `data.js` with content from `運動健康媒合成功事例篩選報告_V2.md`.
